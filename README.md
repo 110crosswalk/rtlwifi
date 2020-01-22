@@ -90,3 +90,7 @@ Remember, this MUST be done whenever you get a new kernel - no exceptions.
 
 These drivers will not build for kernels older than 4.14. If you are using a kernel newer than 5.2,
 I suggest that you use the driver built into the kernel!
+
+*** Build
+make ARCH="arm" CROSS_COMPILE=armv5tel-softfloat-linux-gnueabi- KSRC=/home/linux-master modules
+
