@@ -33,24 +33,24 @@ rtlwifi-objs	:=	\
 		regd.o	\
 		stats.o
 
-obj-m	+= rtl_pci.o
-rtl_pci-objs	:=		pci.o
+#obj-m	+= rtl_pci.o
+#rtl_pci-objs	:=		pci.o
 
 obj-m	+= rtl_usb.o
 rtl_usb-objs	:=		usb.o
 
 obj-m	+= btcoexist/
-obj-m	+= rtl8188ee/
-obj-m	+= rtl8192c/
-obj-m	+= rtl8192ce/
+#obj-m	+= rtl8188ee/
+#obj-m	+= rtl8192c/
+#obj-m	+= rtl8192ce/
 obj-m	+= rtl8192cu/
-obj-m	+= rtl8192de/
-obj-m	+= rtl8192ee/
-obj-m	+= rtl8192se/
-obj-m	+= rtl8723ae/
-obj-m	+= rtl8723com/
-obj-m	+= rtl8723be/
-obj-m	+= rtl8821ae/
+#obj-m	+= rtl8192de/
+#obj-m	+= rtl8192ee/
+#obj-m	+= rtl8192se/
+#obj-m	+= rtl8723ae/
+#obj-m	+= rtl8723com/
+#obj-m	+= rtl8723be/
+#obj-m	+= rtl8821ae/
 
 ccflags-y += -D__CHECK_ENDIAN__
 
