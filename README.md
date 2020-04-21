@@ -94,3 +94,9 @@ I suggest that you use the driver built into the kernel!
 *** Build
 make ARCH="arm" CROSS_COMPILE=armv5tel-softfloat-linux-gnueabi- KSRC=/home/linux-master modules
 
+
+### Load
+sudo modprobe mac80211
+sudo insmod rtlwifi.ko
+sudo insmod rtl_usb.ko
+
