@@ -99,6 +99,6 @@ make ARCH="arm" CROSS_COMPILE=armv5tel-softfloat-linux-gnueabi- KSRC=/home/linux
 sudo modprobe mac80211
 sudo insmod rtlwifi.ko
 sudo insmod rtl_usb.ko
-sudo insmod rtl8192c/*common.ko
+sudo insmod rtl8192c/rtl8192c-common.ko
 sudo insmod rtl8192cu/rtl8192cu.ko
 
